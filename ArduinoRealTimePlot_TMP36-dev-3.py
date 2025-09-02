@@ -1,3 +1,5 @@
+# Developed by Samarendra (© 2025)
+
 import time
 import serial
 import datetime
@@ -23,8 +25,8 @@ time_list = []  # To store real-time timestamps
 
 ani = None
 
-# Fixed run time of 2 hours
-run_duration = datetime.timedelta(hours=6)  # 2 hours duration
+# Fixed run time of 6 hours
+run_duration = datetime.timedelta(hours=6)  # 6 hours duration
 #run_duration = datetime.timedelta(minutes=1)  # 1 minutes duration
 start_time = None
 end_time = None
